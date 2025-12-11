@@ -17,6 +17,8 @@ uv sync
 pip install -e ".[dev]"
 ```
 
+**IMPORTANT:** Always use `uv run` to execute Python commands in this project (e.g., `uv run python script.py`, `uv run pytest`). This ensures the correct virtual environment and dependencies are used.
+
 ### Testing
 ```bash
 # Run all tests (requires OPENAI_API_KEY)
